@@ -1,8 +1,12 @@
+/**
+ *Submitted for verification at BscScan.com on 2021-09-25
+*/
+
 /**                                                                               
-Doge Wonka
-    Why Doge Wonka? We love chocolate and technology... And who doesn't?
-    Auto-boost and hyper deflation system.
-    
+    Welcome to Doge Wonka.
+    This is the future. See our roadmap, fall in love, grow together. 
+    Every purchase will be tastier!! 
+
         __________________,.............,    
        /_/_/_/_/_/_/_/_/,-',  ,. -,-,--/|
      /_/_/_/_/_/_/_/,-' //  /-| / /--/ /
@@ -11,7 +15,8 @@ Doge Wonka
 |________,'   Doge Wonka        |/
          """""""""""""""""""""""'
     
-  . Telegram: https://t.me/dogewonka
+   Telegram: https://t.me/dogewonka
+   website: https://www.dogewonka.com
  
 */
 
@@ -428,7 +433,7 @@ contract DogeWonka is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
    
-    address payable public marketingAddress = payable(0x0A26e023a4DAAe1B6A8Ee97d1eEA232631e48aDC); // Marketing and Development Address DOGE WONKA
+    address payable public marketingAddress = payable(0x40Acf23d20fd622B07f4173B1Bdaed3161ab99dB); // Marketing and Development Address DOGE WONKA TOKEN
     address public immutable deadAddress = 0x000000000000000000000000000000000000dEaD;
     mapping (address => uint256) private _rOwned;
     mapping (address => uint256) private _tOwned;
@@ -444,8 +449,8 @@ contract DogeWonka is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "DogeWonka";
-    string private _symbol = "DOGEWONKA";
+    string private _name = "Doge Wonka";
+    string private _symbol = "DWONKA";
     uint8 private _decimals = 9;
 
     struct AddressFee {
